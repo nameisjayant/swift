@@ -12,6 +12,7 @@ struct ContentView: View {
         Text("Hello, world!")
             .padding()
             .font(.body)
+            .foregroundColor(.orange)
     }
 }
 
