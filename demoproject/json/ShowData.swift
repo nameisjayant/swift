@@ -15,7 +15,7 @@ struct ShowData: View {
                     VStack{
                         Text("Name : \(content.name)")
                         Text("Age : \(content.age)")
-                    }
+                    }.padding(.all)
                 }
             }.navigationTitle("Candidate Names")
         }

@@ -11,6 +11,9 @@
 		9F89C02D2795ACC1001950DF /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C02C2795ACC1001950DF /* Names.swift */; };
 		9F89C02F2795AD59001950DF /* ParseJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C02E2795AD59001950DF /* ParseJson.swift */; };
 		9F89C0312795AE92001950DF /* ShowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C0302795AE92001950DF /* ShowData.swift */; };
+		9F89C0362795C3D2001950DF /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C0352795C3D2001950DF /* ApiService.swift */; };
+		9F89C0382795C3E0001950DF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C0372795C3E0001950DF /* Post.swift */; };
+		9F89C03A2795C95B001950DF /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C0392795C95B001950DF /* NetworkView.swift */; };
 		9F89C18627909181003BFA27 /* Pager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C18527909181003BFA27 /* Pager.swift */; };
 		9F89C189279095A8003BFA27 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C188279095A8003BFA27 /* SideBarView.swift */; };
 		9F89C18B27909796003BFA27 /* LoadImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C18A27909796003BFA27 /* LoadImageView.swift */; };
@@ -45,6 +48,9 @@
 		9F89C02C2795ACC1001950DF /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
 		9F89C02E2795AD59001950DF /* ParseJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseJson.swift; sourceTree = "<group>"; };
 		9F89C0302795AE92001950DF /* ShowData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowData.swift; sourceTree = "<group>"; };
+		9F89C0352795C3D2001950DF /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		9F89C0372795C3E0001950DF /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		9F89C0392795C95B001950DF /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
 		9F89C18527909181003BFA27 /* Pager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pager.swift; sourceTree = "<group>"; };
 		9F89C188279095A8003BFA27 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 		9F89C18A27909796003BFA27 /* LoadImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageView.swift; sourceTree = "<group>"; };
@@ -104,6 +110,32 @@
 			path = model;
 			sourceTree = "<group>";
 		};
+		9F89C0322795C399001950DF /* api */ = {
+			isa = PBXGroup;
+			children = (
+				9F89C0332795C3B8001950DF /* data */,
+				9F89C0392795C95B001950DF /* NetworkView.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		9F89C0332795C3B8001950DF /* data */ = {
+			isa = PBXGroup;
+			children = (
+				9F89C0342795C3BE001950DF /* network */,
+				9F89C0372795C3E0001950DF /* Post.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		9F89C0342795C3BE001950DF /* network */ = {
+			isa = PBXGroup;
+			children = (
+				9F89C0352795C3D2001950DF /* ApiService.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
 		9F89C1842790916F003BFA27 /* pager */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +176,7 @@
 		9F942AB0278DBF39003E17A0 /* demoproject */ = {
 			isa = PBXGroup;
 			children = (
+				9F89C0322795C399001950DF /* api */,
 				9F89C0222795AB8E001950DF /* json */,
 				9F89C18727909593003BFA27 /* navigation */,
 				9F89C1842790916F003BFA27 /* pager */,
@@ -316,9 +349,12 @@
 				9F89C189279095A8003BFA27 /* SideBarView.swift in Sources */,
 				9F89C02F2795AD59001950DF /* ParseJson.swift in Sources */,
 				9F89C0312795AE92001950DF /* ShowData.swift in Sources */,
+				9F89C03A2795C95B001950DF /* NetworkView.swift in Sources */,
+				9F89C0362795C3D2001950DF /* ApiService.swift in Sources */,
 				9F942AB4278DBF39003E17A0 /* ContentView.swift in Sources */,
 				9F89C18B27909796003BFA27 /* LoadImageView.swift in Sources */,
 				9F942AB2278DBF39003E17A0 /* demoprojectApp.swift in Sources */,
+				9F89C0382795C3E0001950DF /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
