@@ -11,7 +11,7 @@ import SwiftUI
 struct demoprojectApp: App {
     var body: some Scene {
         WindowGroup {
-            LoadImageView()
+            ShowData()
         }
     }
 }
