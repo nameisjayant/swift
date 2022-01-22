@@ -12,8 +12,7 @@ struct demoprojectApp: App {
     var apiService = ApiService()
     var body: some Scene {
         WindowGroup {
-            NetworkView()
-                .environmentObject(apiService)
+            DemoView()
         }
     }
 }
