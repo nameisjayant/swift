@@ -19,6 +19,7 @@
 		9F89C189279095A8003BFA27 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C188279095A8003BFA27 /* SideBarView.swift */; };
 		9F89C18B27909796003BFA27 /* LoadImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C18A27909796003BFA27 /* LoadImageView.swift */; };
 		9F8B60EA279C266E007847BA /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B60E9279C266E007847BA /* DemoView.swift */; };
+		9F8B60EC279C49F5007847BA /* ListTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B60EB279C49F5007847BA /* ListTestView.swift */; };
 		9F942AB2278DBF39003E17A0 /* demoprojectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F942AB1278DBF39003E17A0 /* demoprojectApp.swift */; };
 		9F942AB4278DBF39003E17A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F942AB3278DBF39003E17A0 /* ContentView.swift */; };
 		9F942AB6278DBF3B003E17A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F942AB5278DBF3B003E17A0 /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		9F89C188279095A8003BFA27 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 		9F89C18A27909796003BFA27 /* LoadImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageView.swift; sourceTree = "<group>"; };
 		9F8B60E9279C266E007847BA /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		9F8B60EB279C49F5007847BA /* ListTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTestView.swift; sourceTree = "<group>"; };
 		9F942AAE278DBF39003E17A0 /* demoproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F942AB1278DBF39003E17A0 /* demoprojectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoprojectApp.swift; sourceTree = "<group>"; };
 		9F942AB3278DBF39003E17A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				9F8B60E9279C266E007847BA /* DemoView.swift */,
+				9F8B60EB279C49F5007847BA /* ListTestView.swift */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 			files = (
 				9F89C02D2795ACC1001950DF /* Names.swift in Sources */,
 				9F89C18627909181003BFA27 /* Pager.swift in Sources */,
+				9F8B60EC279C49F5007847BA /* ListTestView.swift in Sources */,
 				9F89C189279095A8003BFA27 /* SideBarView.swift in Sources */,
 				9F89C02F2795AD59001950DF /* ParseJson.swift in Sources */,
 				9F89C0312795AE92001950DF /* ShowData.swift in Sources */,

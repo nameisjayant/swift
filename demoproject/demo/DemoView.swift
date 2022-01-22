@@ -48,3 +48,10 @@ struct DemoView_Previews: PreviewProvider {
         DemoView()
     }
 }
+
+
+// @State and @Binding
+// @ObservableObject , @Published, @ObservedObject
+// @StateObject
+// @EnvironmentObject
+

@@ -12,7 +12,7 @@ struct demoprojectApp: App {
     var apiService = ApiService()
     var body: some Scene {
         WindowGroup {
-            DemoView()
+            ListTestView()
         }
     }
 }
