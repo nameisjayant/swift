@@ -5,3 +5,4 @@ Practise of Swift ui
 - login screen
 - scrollview
 - fetch data from server
+- lifecycle
