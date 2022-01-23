@@ -7,4 +7,4 @@ Practise of Swift ui
 - fetch data from server
 - lifecycle methods
 - crud operation on list
--
+- mvvm pattern
