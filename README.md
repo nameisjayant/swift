@@ -8,3 +8,4 @@ Practise of Swift ui
 - lifecycle methods
 - crud operation on list
 - mvvm pattern
+- design
