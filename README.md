@@ -9,3 +9,4 @@ Practise of Swift ui
 - crud operation on list
 - mvvm pattern
 - design
+- custom design
