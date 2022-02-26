@@ -15,6 +15,7 @@ struct DemoView: View {
         NavigationView{
             VStack{
                 Section{
+                    
                     Toggle(isOn:$toggle){
                         Text("Wanna increase font size")
                     }
@@ -50,8 +51,8 @@ struct DemoView_Previews: PreviewProvider {
 }
 
 
-// @State and @Binding
-// @ObservableObject , @Published, @ObservedObject
-// @StateObject
-// @EnvironmentObject
+//
+// @ObservableObject , @Published -> ViewModel
+// @StateObject,@ObservedObject, @State and @Binding
+// @EnvironmentObject  -> View
 
