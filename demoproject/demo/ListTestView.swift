@@ -13,7 +13,7 @@ struct Item : Identifiable{
 }
 
 struct ListTestView: View {
-    @State var items:[Item] = [Item(id: UUID(),name: "Item one"),
+    @State private var items:[Item] = [Item(id: UUID(),name: "Item one"),
                                Item(id: UUID(),name: "Item two"),Item(id: UUID(),name: "Item Three")]
     var body: some View {
         NavigationView{
