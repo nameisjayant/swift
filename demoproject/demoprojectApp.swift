@@ -10,9 +10,12 @@ import SwiftUI
 @main
 struct demoprojectApp: App {
     var apiService = ApiService()
+    var viewModel = MainViewModel()
+    var stopwatch =  StopWatch()
+    
     var body: some Scene {
         WindowGroup {
-            ListTestView()
+            StateView(viewModel: viewModel,stopwatch:stopwatch)
         }
     }
 }
