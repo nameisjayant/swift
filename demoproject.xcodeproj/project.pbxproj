@@ -10,6 +10,7 @@
 		9F20986B285CC65E004E2526 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20986A285CC65E004E2526 /* MainViewModel.swift */; };
 		9F20986D285CC6E4004E2526 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20986C285CC6E4004E2526 /* StateView.swift */; };
 		9F20986F285CCA81004E2526 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20986E285CCA81004E2526 /* Stopwatch.swift */; };
+		9F209871285CD05C004E2526 /* PriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F209870285CD05C004E2526 /* PriceViewModel.swift */; };
 		9F89C0242795ABBB001950DF /* names.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F89C0232795ABBB001950DF /* names.json */; };
 		9F89C02D2795ACC1001950DF /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C02C2795ACC1001950DF /* Names.swift */; };
 		9F89C02F2795AD59001950DF /* ParseJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C02E2795AD59001950DF /* ParseJson.swift */; };
@@ -53,6 +54,7 @@
 		9F20986A285CC65E004E2526 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		9F20986C285CC6E4004E2526 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		9F20986E285CCA81004E2526 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		9F209870285CD05C004E2526 /* PriceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewModel.swift; sourceTree = "<group>"; };
 		9F89C0232795ABBB001950DF /* names.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = names.json; sourceTree = "<group>"; };
 		9F89C02C2795ACC1001950DF /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
 		9F89C02E2795AD59001950DF /* ParseJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseJson.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				9F20986A285CC65E004E2526 /* MainViewModel.swift */,
 				9F20986C285CC6E4004E2526 /* StateView.swift */,
 				9F20986E285CCA81004E2526 /* Stopwatch.swift */,
+				9F209870285CD05C004E2526 /* PriceViewModel.swift */,
 			);
 			path = states;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				9F89C18627909181003BFA27 /* Pager.swift in Sources */,
 				9F8B60EC279C49F5007847BA /* ListTestView.swift in Sources */,
 				9F89C189279095A8003BFA27 /* SideBarView.swift in Sources */,
+				9F209871285CD05C004E2526 /* PriceViewModel.swift in Sources */,
 				9F89C02F2795AD59001950DF /* ParseJson.swift in Sources */,
 				9F20986F285CCA81004E2526 /* Stopwatch.swift in Sources */,
 				9F20986B285CC65E004E2526 /* MainViewModel.swift in Sources */,

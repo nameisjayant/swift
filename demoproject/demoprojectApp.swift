@@ -12,10 +12,11 @@ struct demoprojectApp: App {
     var apiService = ApiService()
     var viewModel = MainViewModel()
     var stopwatch =  StopWatch()
+    var pricingProvider = PricingProvider(price: Price(amount: "123",description: "bdhkddb"))
     
     var body: some Scene {
         WindowGroup {
-            StateView(viewModel: viewModel,stopwatch:stopwatch)
+            PriceView(pricingProvider: <#T##PricingProvider#>)
         }
     }
 }

@@ -28,3 +28,26 @@ struct StateView: View {
     }
 }
 
+
+struct PriceView : View{
+    @StateObject var pricingProvider:PricingProvider
+    var body : some View{
+        
+        VStack{
+            Group{
+                if let price = pricingProvider.price{
+                    Text(price.amount).bold() + Text(price.description).font(.system(size:12))
+                }else{
+                    Text("Price not available")
+                                        .italic()
+                                        .foregroundColor(.gray)
+                }
+            } .font(.system(size: 16))
+            
+            Button("Fetch"){
+                pricingProvider.fetch()
+            }
+        }
+    }
+    
+}
