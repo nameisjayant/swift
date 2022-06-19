@@ -11,6 +11,11 @@
 		9F20986D285CC6E4004E2526 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20986C285CC6E4004E2526 /* StateView.swift */; };
 		9F20986F285CCA81004E2526 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20986E285CCA81004E2526 /* Stopwatch.swift */; };
 		9F209871285CD05C004E2526 /* PriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F209870285CD05C004E2526 /* PriceViewModel.swift */; };
+		9F209874285F27F6004E2526 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F209873285F27F6004E2526 /* TodoListView.swift */; };
+		9F209879285F2C92004E2526 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F209878285F2C92004E2526 /* Todo.swift */; };
+		9F20987B285F320C004E2526 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20987A285F320C004E2526 /* TodoViewModel.swift */; };
+		9F20987D285F3573004E2526 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20987C285F3573004E2526 /* ListRowView.swift */; };
+		9F20987F285F37D2004E2526 /* AddList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20987E285F37D2004E2526 /* AddList.swift */; };
 		9F89C0242795ABBB001950DF /* names.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F89C0232795ABBB001950DF /* names.json */; };
 		9F89C02D2795ACC1001950DF /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C02C2795ACC1001950DF /* Names.swift */; };
 		9F89C02F2795AD59001950DF /* ParseJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C02E2795AD59001950DF /* ParseJson.swift */; };
@@ -55,6 +60,11 @@
 		9F20986C285CC6E4004E2526 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		9F20986E285CCA81004E2526 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 		9F209870285CD05C004E2526 /* PriceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewModel.swift; sourceTree = "<group>"; };
+		9F209873285F27F6004E2526 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		9F209878285F2C92004E2526 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		9F20987A285F320C004E2526 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		9F20987C285F3573004E2526 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		9F20987E285F37D2004E2526 /* AddList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddList.swift; sourceTree = "<group>"; };
 		9F89C0232795ABBB001950DF /* names.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = names.json; sourceTree = "<group>"; };
 		9F89C02C2795ACC1001950DF /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
 		9F89C02E2795AD59001950DF /* ParseJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseJson.swift; sourceTree = "<group>"; };
@@ -114,6 +124,42 @@
 				9F209870285CD05C004E2526 /* PriceViewModel.swift */,
 			);
 			path = states;
+			sourceTree = "<group>";
+		};
+		9F209872285F2785004E2526 /* todo */ = {
+			isa = PBXGroup;
+			children = (
+				9F209877285F2815004E2526 /* model */,
+				9F209876285F280C004E2526 /* viewmodel */,
+				9F209875285F2801004E2526 /* views */,
+			);
+			path = todo;
+			sourceTree = "<group>";
+		};
+		9F209875285F2801004E2526 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9F209873285F27F6004E2526 /* TodoListView.swift */,
+				9F20987C285F3573004E2526 /* ListRowView.swift */,
+				9F20987E285F37D2004E2526 /* AddList.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		9F209876285F280C004E2526 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				9F20987A285F320C004E2526 /* TodoViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		9F209877285F2815004E2526 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9F209878285F2C92004E2526 /* Todo.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		9F89C0222795AB8E001950DF /* json */ = {
@@ -211,6 +257,7 @@
 		9F942AB0278DBF39003E17A0 /* demoproject */ = {
 			isa = PBXGroup;
 			children = (
+				9F209872285F2785004E2526 /* todo */,
 				9F209869285CC649004E2526 /* states */,
 				9F8B60E8279C265E007847BA /* demo */,
 				9F89C0322795C399001950DF /* api */,
@@ -382,16 +429,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F89C02D2795ACC1001950DF /* Names.swift in Sources */,
+				9F20987F285F37D2004E2526 /* AddList.swift in Sources */,
 				9F89C18627909181003BFA27 /* Pager.swift in Sources */,
 				9F8B60EC279C49F5007847BA /* ListTestView.swift in Sources */,
 				9F89C189279095A8003BFA27 /* SideBarView.swift in Sources */,
 				9F209871285CD05C004E2526 /* PriceViewModel.swift in Sources */,
 				9F89C02F2795AD59001950DF /* ParseJson.swift in Sources */,
+				9F209874285F27F6004E2526 /* TodoListView.swift in Sources */,
+				9F20987D285F3573004E2526 /* ListRowView.swift in Sources */,
 				9F20986F285CCA81004E2526 /* Stopwatch.swift in Sources */,
 				9F20986B285CC65E004E2526 /* MainViewModel.swift in Sources */,
 				9F20986D285CC6E4004E2526 /* StateView.swift in Sources */,
 				9F89C0312795AE92001950DF /* ShowData.swift in Sources */,
 				9F89C03A2795C95B001950DF /* NetworkView.swift in Sources */,
+				9F20987B285F320C004E2526 /* TodoViewModel.swift in Sources */,
 				9F89C0362795C3D2001950DF /* ApiService.swift in Sources */,
 				9F942AB4278DBF39003E17A0 /* ContentView.swift in Sources */,
 				9F89C03C2795D0CF001950DF /* ApiState.swift in Sources */,
@@ -399,6 +450,7 @@
 				9F942AB2278DBF39003E17A0 /* demoprojectApp.swift in Sources */,
 				9F89C0382795C3E0001950DF /* Post.swift in Sources */,
 				9F8B60EA279C266E007847BA /* DemoView.swift in Sources */,
+				9F209879285F2C92004E2526 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

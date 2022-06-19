@@ -9,14 +9,15 @@ import SwiftUI
 
 @main
 struct demoprojectApp: App {
-    var apiService = ApiService()
-    var viewModel = MainViewModel()
-    var stopwatch =  StopWatch()
-    var pricingProvider = PricingProvider(price: Price(amount: "123",description: "bdhkddb"))
+    
+    @StateObject var viewModel:TodoViewModel = TodoViewModel()
     
     var body: some Scene {
         WindowGroup {
-            StateView(viewModel: viewModel, stopwatch: stopwatch)
+            NavigationView{
+                TodoListView()
+            }.navigationViewStyle(StackNavigationViewStyle())
+                .environmentObject(viewModel)
         }
     }
 }
