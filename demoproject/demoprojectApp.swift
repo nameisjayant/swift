@@ -16,7 +16,7 @@ struct demoprojectApp: App {
     
     var body: some Scene {
         WindowGroup {
-            PriceView(pricingProvider: <#T##PricingProvider#>)
+            StateView(viewModel: viewModel, stopwatch: stopwatch)
         }
     }
 }
