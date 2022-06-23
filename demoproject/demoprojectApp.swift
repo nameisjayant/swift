@@ -14,7 +14,8 @@ struct demoprojectApp: App {
     
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            RootView()
+                .environmentObject(PresenterView())
         }
     }
 }
