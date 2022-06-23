@@ -14,10 +14,7 @@ struct demoprojectApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView{
-                TodoListView()
-            }.navigationViewStyle(StackNavigationViewStyle())
-                .environmentObject(viewModel)
+            LoginView()
         }
     }
 }

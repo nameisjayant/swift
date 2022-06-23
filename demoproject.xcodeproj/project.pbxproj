@@ -36,6 +36,7 @@
 		9F942AC3278DBF3C003E17A0 /* demoprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F942AC2278DBF3C003E17A0 /* demoprojectTests.swift */; };
 		9F942ACD278DBF3C003E17A0 /* demoprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F942ACC278DBF3C003E17A0 /* demoprojectUITests.swift */; };
 		9F942ACF278DBF3C003E17A0 /* demoprojectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F942ACE278DBF3C003E17A0 /* demoprojectUITestsLaunchTests.swift */; };
+		9FE10BDB2864AED7007107A0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE10BDA2864AED7007107A0 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		9F942AC8278DBF3C003E17A0 /* demoprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F942ACC278DBF3C003E17A0 /* demoprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoprojectUITests.swift; sourceTree = "<group>"; };
 		9F942ACE278DBF3C003E17A0 /* demoprojectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoprojectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FE10BDA2864AED7007107A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 		9F942AB0278DBF39003E17A0 /* demoproject */ = {
 			isa = PBXGroup;
 			children = (
+				9FE10BD92864AEB8007107A0 /* login */,
 				9F209872285F2785004E2526 /* todo */,
 				9F209869285CC649004E2526 /* states */,
 				9F8B60E8279C265E007847BA /* demo */,
@@ -295,6 +298,14 @@
 				9F942ACE278DBF3C003E17A0 /* demoprojectUITestsLaunchTests.swift */,
 			);
 			path = demoprojectUITests;
+			sourceTree = "<group>";
+		};
+		9FE10BD92864AEB8007107A0 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				9FE10BDA2864AED7007107A0 /* LoginView.swift */,
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,6 +445,7 @@
 				9F8B60EC279C49F5007847BA /* ListTestView.swift in Sources */,
 				9F89C189279095A8003BFA27 /* SideBarView.swift in Sources */,
 				9F209871285CD05C004E2526 /* PriceViewModel.swift in Sources */,
+				9FE10BDB2864AED7007107A0 /* LoginView.swift in Sources */,
 				9F89C02F2795AD59001950DF /* ParseJson.swift in Sources */,
 				9F209874285F27F6004E2526 /* TodoListView.swift in Sources */,
 				9F20987D285F3573004E2526 /* ListRowView.swift in Sources */,
