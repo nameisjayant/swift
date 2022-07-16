@@ -14,8 +14,7 @@ struct demoprojectApp: App {
     
     var body: some Scene {
         WindowGroup {
-            RootView()
-                .environmentObject(PresenterView())
+           BottosheetView()
         }
     }
 }
