@@ -38,6 +38,8 @@
 		9F942ACF278DBF3C003E17A0 /* demoprojectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F942ACE278DBF3C003E17A0 /* demoprojectUITestsLaunchTests.swift */; };
 		9FACF8B62882BBD100D2BCE9 /* BottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACF8B52882BBD100D2BCE9 /* BottomTabBar.swift */; };
 		9FACF8B82882DBE700D2BCE9 /* BottosheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACF8B72882DBE700D2BCE9 /* BottosheetView.swift */; };
+		9FACF8BA2882E41700D2BCE9 /* RadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACF8B92882E41700D2BCE9 /* RadioButtonView.swift */; };
+		9FACF8BC2882F65600D2BCE9 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACF8BB2882F65600D2BCE9 /* ToggleView.swift */; };
 		9FE10BDB2864AED7007107A0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE10BDA2864AED7007107A0 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +95,8 @@
 		9F942ACE278DBF3C003E17A0 /* demoprojectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoprojectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9FACF8B52882BBD100D2BCE9 /* BottomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBar.swift; sourceTree = "<group>"; };
 		9FACF8B72882DBE700D2BCE9 /* BottosheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottosheetView.swift; sourceTree = "<group>"; };
+		9FACF8B92882E41700D2BCE9 /* RadioButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonView.swift; sourceTree = "<group>"; };
+		9FACF8BB2882F65600D2BCE9 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		9FE10BDA2864AED7007107A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -310,6 +314,8 @@
 			children = (
 				9FACF8B52882BBD100D2BCE9 /* BottomTabBar.swift */,
 				9FACF8B72882DBE700D2BCE9 /* BottosheetView.swift */,
+				9FACF8B92882E41700D2BCE9 /* RadioButtonView.swift */,
+				9FACF8BB2882F65600D2BCE9 /* ToggleView.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -465,6 +471,7 @@
 				9F20987D285F3573004E2526 /* ListRowView.swift in Sources */,
 				9F20986F285CCA81004E2526 /* Stopwatch.swift in Sources */,
 				9F20986B285CC65E004E2526 /* MainViewModel.swift in Sources */,
+				9FACF8BA2882E41700D2BCE9 /* RadioButtonView.swift in Sources */,
 				9F20986D285CC6E4004E2526 /* StateView.swift in Sources */,
 				9F89C0312795AE92001950DF /* ShowData.swift in Sources */,
 				9F89C03A2795C95B001950DF /* NetworkView.swift in Sources */,
@@ -472,6 +479,7 @@
 				9F20987B285F320C004E2526 /* TodoViewModel.swift in Sources */,
 				9F89C0362795C3D2001950DF /* ApiService.swift in Sources */,
 				9F942AB4278DBF39003E17A0 /* ContentView.swift in Sources */,
+				9FACF8BC2882F65600D2BCE9 /* ToggleView.swift in Sources */,
 				9F89C03C2795D0CF001950DF /* ApiState.swift in Sources */,
 				9FACF8B62882BBD100D2BCE9 /* BottomTabBar.swift in Sources */,
 				9F89C18B27909796003BFA27 /* LoadImageView.swift in Sources */,

@@ -14,7 +14,7 @@ struct demoprojectApp: App {
     
     var body: some Scene {
         WindowGroup {
-           BottosheetView()
+            BottosheetView()
         }
     }
 }

@@ -13,7 +13,13 @@ struct BottosheetView: View {
             isShow.toggle()
         }
         .sheet(isPresented: $isShow) {
-            Text("Bottosheet contents")
+            if #available(iOS 16.0, *) {
+                Text("Bottosheet contents")
+                    .presentationDetents([.height(200)])
+            } else {
+               
+                Text("Bottosheet contents")
+            }
         }
     }
 }
